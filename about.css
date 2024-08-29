@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Merienda:wght@300..900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+
+body {
+    font-family: "Athiti", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #4c4343;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Merienda", cursive;
+    text-align: center;
+}
+
+h1::before {
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #d83535;
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+    position: relative;
+    bottom: 0.5rem;
+
+
+}
+
+
+h1::after {
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #d83535;
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+    position: relative;
+    bottom: 0.5rem;
+
+
+}
+
+h2::after {
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #d83535;
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+    position: relative;
+    bottom: 0.3rem;
+
+
+}
+
+h2::before {
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #d83535;
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+    position: relative;
+    bottom: 0.3rem;
+
+
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-top: 4rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.header nav ul li:hover {
+    background-color: #d83535;
+    transition: 0.7s;
+}
+
+.header nav ul li a:hover {
+    color: #ebe3db;
+    transition: 0.7s;
+}
+
+.header nav ul li {
+    list-style: none;
+    border: 1px solid #4c4343;
+    background-color: #ebe3db;
+    padding: 0.3rem 0.5rem;
+    margin-right: 2rem;
+}
+
+#about {
+    background-color: #4c4343;
+}
+
+#about a {
+    color: #ebe3db;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #4c4343;
+
+}
+
+nav li:nth-of-type(2) {
+    background-color: #4c4343;
+
+}
+
+.header nav ul {
+    padding-left: 0;
+
+}
+
+
+.header img {
+    width: 10%;
+    margin-right: 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+video {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+article {
+    background-color: #ebe3db;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+figure img {
+    width: 100%;
+}
+
+footer {
+    background-image: url(img/images/footer-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #ebe3db;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer h5 {
+    border-bottom: 1px dashed #ebe3db;
+    font-size: 15px;
+}
+
+footer a i {
+    font-size: 1rem;
+    color: #ebe3db;
+    margin-right: 1rem;
+}
+
+address {
+    font-style: normal;
+}
+
+.div-footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 1rem;
+    color: #ebe3db;
+    background-color: #9c9191;
+}
+
+
+@media screen and (min-width:780px) and (max-width:1100px) {
+
+    .header ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ebe3db;
+    }
+
+    .header nav ul li {
+        border: none;
+
+    }
+
+
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        grid-template-areas:
+            "dining1 dining2"
+            "dining3 dining4";
+
+        .dining1 {
+            grid-area: dining1;
+        }
+    }
+
+    .dining2 {
+        grid-area: dining2;
+    }
+
+    .dining3 {
+        grid-area: dining3;
+    }
+
+    .dining4 {
+        grid-area: dining4;
+    }
+
+
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+
+
+    }
+}
+
+@media screen and (min-width:1100px) {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-main img {
+        margin-bottom: 4rem;
+    }
+
+    picture {
+        display: flex;
+    }
+
+    nav ul {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        grid-template-areas:
+            "dining1 dining2"
+            "dining3 dining4";
+
+        .dining1 {
+            grid-area: dining1;
+        }
+    }
+
+    .dining2 {
+        grid-area: dining2;
+    }
+
+    .dining3 {
+        grid-area: dining3;
+    }
+
+    .dining4 {
+        grid-area: dining4;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+
+
+    }
+}

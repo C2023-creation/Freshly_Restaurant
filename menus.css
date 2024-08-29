@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Merienda:wght@300..900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+* {
+    color: #000000;
+}
+
+body {
+    font-family: "Athiti", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.container {
+
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Merienda", cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 4rem;
+
+}
+
+
+h1::before {
+    position: relative;
+    bottom: 0.5rem;
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #950000;
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+
+
+
+}
+
+h1::after {
+    position: relative;
+    bottom: 0.5rem;
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #950000;
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+h2::after {
+    position: relative;
+    bottom: 0.3rem;
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #950000;
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+
+
+
+}
+
+h2::before {
+    position: relative;
+    bottom: 0.3rem;
+    content: '\f005';
+    font: var(--fa-font-solid);
+    color: #950000;
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+}
+
+.container p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.header nav ul li:hover {
+    background-color: #950000;
+    transition: 0.5s;
+}
+
+nav ul li:hover a {
+    color: #ffffff;
+
+}
+
+.header nav ul li {
+    list-style: none;
+    border: 1px solid #4c4343;
+    padding: 0.2rem;
+    background-color: #ebe3db;
+    padding: 0 0.5rem;
+}
+
+
+
+.header nav li a {
+    text-decoration: none;
+
+}
+
+#menus {
+    color: #ebe3db;
+}
+
+.header nav li:nth-of-type(3) {
+    background-color: #4c4343;
+
+}
+
+ul {
+
+    padding: 0;
+}
+
+
+.header img {
+    width: 10%;
+    margin-right: 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.menu nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+
+.menu nav ul li:hover {
+    background-color: #950000;
+    color: #ebe3db;
+    transition: 0.7s;
+}
+
+.menu nav li a:hover {
+    color: #ebe3db;
+    transition: 0.7s;
+}
+
+.menu nav ul li {
+    border: none;
+    list-style-type: none;
+    background-color: #ebe3db;
+    padding: 0 1rem;
+    text-transform: uppercase;
+
+}
+
+.menu nav li:first-of-type {
+    background-color: #950000;
+    ;
+}
+
+#all {
+    color: #ebe3db;
+}
+
+.menu nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section p {
+    font-size: 15px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menus,
+.deserts,
+.cocktails {
+    padding: 1rem;
+    text-align: center;
+    background-color: #ebe3db;
+}
+
+
+figure img {
+    width: 100%;
+    box-shadow: 3px 3px 8px rgba(76, 67, 67, .5);
+
+
+}
+
+
+figcaption span {
+    transform: scale(2);
+    color: #ffffff;
+}
+
+
+.fish1,
+.fish02,
+.fish03,
+.vegan03,
+.vegan02,
+.vegan01,
+.meat03,
+.meat01,
+.meat02,
+.desert-01,
+.desert2,
+.desert3,
+.drink1,
+.drink2,
+.drink3 {
+    position: relative;
+}
+
+
+.fish1:hover figcaption,
+.fish02:hover figcaption,
+.fish03:hover figcaption,
+.vegan03:hover figcaption,
+.vegan02:hover figcaption,
+.vegan01:hover figcaption,
+.meat03:hover figcaption,
+.meat01:hover figcaption,
+.meat02:hover figcaption,
+.desert-01:hover figcaption,
+.desert2:hover figcaption,
+.desert3:hover figcaption,
+.drink1:hover figcaption,
+.drink2:hover figcaption,
+.drink3:hover figcaption {
+
+    background-color: rgba(76, 67, 67, .9);
+    opacity: 1;
+}
+
+
+.fish1 figcaption,
+.fish02 figcaption,
+.fish03 figcaption,
+.vegan03 figcaption,
+.vegan02 figcaption,
+.vegan01 figcaption,
+.meat03 figcaption,
+.meat01 figcaption,
+.meat02 figcaption,
+.desert-01 figcaption,
+.desert2 figcaption,
+.desert3 figcaption,
+.drink1 figcaption,
+.drink2 figcaption,
+.drink3 figcaption {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+
+
+
+
+.fish1:hover figcaption,
+.fish02:hover figcaption,
+.fish03:hover figcaption,
+.vegan03:hover figcaption,
+.vegan02:hover figcaption,
+.vegan01:hover figcaption,
+.meat03:hover figcaption,
+.meat01:hover figcaption,
+.meat02:hover figcaption,
+.desert-01:hover figcaption,
+.desert2:hover figcaption,
+.desert3:hover figcaption,
+.drink1:hover figcaption,
+.drink2:hover figcaption,
+.drink3:hover figcaption {
+    height: 85%;
+    width: 85%;
+    margin: auto;
+    border: 3px solid #ffffff;
+    color: #ebe3db;
+    text-align: center;
+    opacity: 1;
+    transition: 0.4s;
+
+}
+
+.menus div {
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+
+    grid-template-areas:
+        "fish1 vegan03 "
+        "meat03 fish02"
+        " meat01 vegan02"
+        "meat02 fish03"
+        "vegan01 vegan1";
+
+    .fish1 {
+        grid-area: fish1;
+    }
+
+    .vegan03 {
+        grid-area: vegan03;
+    }
+
+    .meat03 {
+        grid-area: meat03;
+    }
+
+    .fish02 {
+        grid-row: fish02;
+    }
+
+    .meat01 {
+        grid-area: meat01;
+    }
+
+    .vegan02 {
+        grid-area: vegan02;
+    }
+
+    .meat02 {
+        grid-area: meat02;
+    }
+
+    .fish03 {
+        grid-area: fish03;
+
+    }
+
+    .vegan01 {
+        grid-area: vegan01;
+
+    }
+
+
+}
+
+figure {
+    margin: 0;
+}
+
+/* div .vegan01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.deserts {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2;
+    grid-gap: 1rem;
+
+    grid-template-areas:
+        "desert1 desert2"
+        "desert3  desert0";
+
+    .desert-01 {
+        grid-area: desert1;
+    }
+
+    .desert2 {
+        grid-area: desert2;
+    }
+
+    .desert3 {
+        grid-area: desert3;
+    }
+}
+
+.cocktails {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2;
+    grid-gap: 1rem;
+
+    grid-template-areas:
+        "drink1 drink2"
+        "drink3  drink0";
+
+    .drink1 {
+        grid-area: drink1;
+    }
+
+    .drink2 {
+        grid-area: drink2;
+    }
+
+    .drink3 {
+        grid-area: drink3;
+    }
+}
+
+
+footer {
+    background-image: url(img/images/footer-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #ebe3db;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer h5 {
+    border-bottom: 1px dashed #ebe3db;
+    font-size: 15px;
+}
+
+footer a i {
+    font-size: 1rem;
+    color: #ebe3db;
+    margin-right: 1rem;
+}
+
+.div-footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 1rem;
+    /* color: #ebe3db; */
+    background-color: #9c9191;
+}
+
+address {
+    font-style: normal;
+}
+
+footer *,
+div * {
+    color: #ffffff;
+}
+
+
+@media screen and (min-width:780px) and (max-width:1100px) {
+
+    .header ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ebe3db;
+    }
+
+    .header nav ul li {
+        border: none;
+
+    }
+
+    .menus div {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 1rem;
+
+        grid-template-areas:
+            "fish1 vegan03 meat03"
+            "fish02 meat01 vegan02"
+            "meat02 fish03 vegan01";
+
+        .fish1 {
+            grid-area: fish1;
+        }
+
+        .vegan03 {
+            grid-area: vegan03;
+        }
+
+        .meat03 {
+            grid-area: meat03;
+        }
+
+        .fish02 {
+            grid-row: fish02;
+        }
+
+        .meat01 {
+            grid-area: meat01;
+        }
+
+        .vegan02 {
+            grid-area: vegan02;
+        }
+
+        .meat02 {
+            grid-area: meat02;
+        }
+
+        .fish03 {
+            grid-area: fish03;
+
+        }
+
+        .vegan01 {
+            grid-area: vegan01;
+
+
+        }
+
+    }
+
+
+    .deserts,
+    .cocktails {
+        display: flex;
+        /* flex-wrap: nowrap; */
+    }
+
+
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+
+
+    }
+
+}
+
+
+
+@media screen and (min-width:1100px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+    .header picture {
+        display: flex;
+    }
+
+    .menus div {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: repeat(3, auto);
+
+        grid-template-areas:
+            "fish1 vegan03 meat03"
+            "fish02 meat01 vegan02"
+            "meat02 fish03 vegan01";
+
+        .fish1 {
+            grid-area: fish1;
+        }
+
+        .vegan03 {
+            grid-area: vegan03;
+        }
+
+        .meat03 {
+            grid-area: meat03;
+        }
+
+        .fish02 {
+            grid-row: fish02;
+        }
+
+        .meat01 {
+            grid-area: meat01;
+        }
+
+        .vegan02 {
+            grid-area: vegan02;
+        }
+
+        .meat02 {
+            grid-area: meat02;
+        }
+
+        .fish03 {
+            grid-area: fish03;
+
+        }
+
+        .vegan01 {
+            grid-area: vegan01;
+        }
+
+    }
+
+    .deserts,
+    .cocktails {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+
+    }
+
+    /* .deserts figure {
+        margin-right: 1rem;
+    } */
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+
+}
